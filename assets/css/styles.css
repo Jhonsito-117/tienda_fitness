@@ -114,13 +114,42 @@ header {
 .seccion-1 {
 }
 
+.intro-seccion {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 .intro-izq {
   display: flex;
   flex-direction: column;
   color: #ffffff;
+  width: 50%;
 }
 
 .intro-izq h1,
 p {
   color: #ffffff;
+}
+
+.intro-der {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.intro-boton {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.intro-boton button {
+  border-radius: 6px;
+  background: transparent
+    linear-gradient(180deg, #e900007d 43.75%, #f60000 100%) 0% 0%;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 1%;
 }
