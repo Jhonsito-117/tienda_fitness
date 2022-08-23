@@ -19,6 +19,16 @@ header {
   /* position: absolute; */
 }
 
+p,
+h1,
+h2,
+h3,
+a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-weight: 700; */
+}
+
 .contenedor-header {
   width: 100%;
 }
@@ -47,15 +57,13 @@ header {
 }
 
 .header-der input {
-  margin-left: 200px;
 }
 
 .header-izq p {
   font-size: 35px;
   line-height: 44px;
   text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: italic;
+  font-weight: 800;
   -webkit-text-stroke: 0.3px #fff;
   color: #000000;
   text-align: left;
@@ -70,6 +78,7 @@ header {
   font-size: 30px;
   margin-top: 1%;
   margin-bottom: 1%;
+  min-width: 450px;
 }
 
 .header-der-top {
@@ -80,7 +89,6 @@ header {
 .header-der-top a {
   text-decoration: none;
   color: #000000;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .header-der-bot {
@@ -107,7 +115,7 @@ header {
 .servicios-header a {
   text-decoration: none;
   color: #ffffff;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   margin: 2% 0%;
   font-size: 25px;
 }
@@ -134,13 +142,13 @@ header {
   margin-left: 50px;
   color: #cda410c1;
   font-size: 40px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 }
 
 .intro-izq p {
   color: #ffffff;
   font-size: 30px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   margin-left: 50px;
 }
 
@@ -175,7 +183,7 @@ header {
 
 /* PLANES SECCION */
 .seccion-2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 }
 
 .planes-seccion {
@@ -187,7 +195,7 @@ header {
 
 .encabezado-planes {
   text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 }
 
 .encabezado-planes p {
@@ -274,7 +282,7 @@ ion-icon {
 
 /* MEJORES SUPLEMENTOS SECCION */
 .seccion-3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 }
 
 .mejores-encabezado {
@@ -350,43 +358,84 @@ ion-icon {
 }
 
 .contacto-container {
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   width: 85%;
   background-color: #cda410c1;
   border-radius: 15px;
   margin: 3%;
 }
 
-.opti {
+.contacto-container .opti {
   display: flex;
   justify-content: space-around;
 }
-.opti p {
-  background-color: #716b6b;
-  border-radius: 10px;
-  width: 10%;
-  height: 20%;
+.contacto-container p {
+  font-size: 25px;
   text-align: center;
 }
-.opti a {
-  background-color: #e92b0088;
-  border-radius: 10px;
-  border-color: #000000;
-  width: 10%;
+.contacto-container h1 {
+  filter: drop-shadow(4px 0px 4px rgba(125, 19, 19, 0.789));
+}
+
+.contacto-container h1 {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.opti p {
+  background-color: #716b6b;
+  border-radius: 8px;
+  width: 15%;
   height: 20%;
   text-align: center;
+  border-style: solid;
+  border-color: #000000;
+  font-size: 30px;
+  border-width: 3px;
+  margin-top: auto;
+}
+.opti a {
+  /* background-color: #e92b0088; */
+  background: linear-gradient(
+      180deg,
+      rgba(233, 0, 0, 0.3969) 43.75%,
+      rgba(247, 0, 0, 0.81) 100%
+    )
+    0% 0%;
+  border-radius: 15px;
+  /* border-color: #000000 solid; */
+  /* border-width: 15px;
+  border-color: #000000; */
+  width: auto;
+  height: fit-content;
+  text-align: center;
+  font-size: 35px;
+  padding: 1%;
+  text-decoration: none;
+  color: #000000;
+  /* border-style: solid; */
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+/* FOOTER */
+
+.footer-container {
+  color: #ffffff;
+
+  display: flex;
 }
 
 /* LISTAS  PRODUCTOS*/
 
 h3 {
   color: #000000;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   font-family: "Mulish";
 }
 .MENU p,
 h2 {
   color: #000000;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 }
 
 .product img {
