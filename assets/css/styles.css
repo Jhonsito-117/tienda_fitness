@@ -111,6 +111,7 @@ header {
   font-size: 25px;
 }
 
+/* INTRO SECCION */
 .seccion-1 {
 }
 
@@ -152,4 +153,91 @@ p {
   font-size: 20px;
   line-height: 25px;
   padding: 1%;
+}
+
+/* PLANES SECCION */
+.seccion-2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.planes-seccion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #111111;
+}
+
+.encabezado-planes {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.encabezado-planes p {
+  font-size: 30px;
+}
+
+.combo-planes {
+  display: flex;
+  width: 100%;
+  margin: 5% 0;
+}
+
+.combo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  gap: 10px;
+}
+
+.encabezado-planes h1 {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.img-combo {
+  /* border-width: 5px;
+  border-color: #cda410c1; */
+}
+.img-combo img {
+  border-width: 10px;
+  border-color: #cda410c1;
+  border-style: solid;
+}
+.text-combo {
+  width: 50%;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-combo h1,
+p {
+  margin: 1%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+.text-combo a {
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+.pie-icon {
+  width: 60px;
+  height: 60px;
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: #cda410c1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+
+ion-icon {
+  font-size: 48px;
 }
