@@ -606,3 +606,57 @@ ion-icon[name="help"],
   padding-bottom: 1%;
   background-color: #0a0a0a;
 }
+
+/* VISTA DE LISTA */
+
+.menu-productos {
+}
+
+.menu-productos h3 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+.menu-productos strong {
+  color: #cda410c1;
+}
+
+.lista-productos img {
+  width: 70%;
+}
+
+.lista-productos {
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  text-align: center;
+  justify-content: center;
+  /* align-content: stretch; */
+  gap: 30px;
+}
+
+.productos-img {
+  background-color: #ffffff;
+  font-size: 1.8vw;
+  border-radius: 40px;
+}
+
+.productos-img button {
+  font-size: 1.8vw;
+}
+
+.productos-img a {
+  text-decoration: none;
+  border-radius: 6px;
+  background: transparent
+    linear-gradient(180deg, #e900007d 43.75%, #f60000 100%) 0% 0%;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 1%;
+}
+ion-icon[name="card"] {
+  justify-self: flex-end;
+  position: absolute;
+  right: 0;
+  color: #cda410c1;
+}
