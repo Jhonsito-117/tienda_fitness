@@ -498,3 +498,111 @@ h2 {
   background-color: #ffffff;
   box-shadow: 0 1px 3px rgba(177, 10, 10, 0.12), 0 1px 2px rgba(0, 0, 0, 0.25);
 }
+
+/* VISTA ATENCION AL CLIENTE */
+.ayuda-container {
+  background-color: #000000;
+  padding-top: 1%;
+}
+
+.ayuda-container h1 {
+  margin-top: 0;
+}
+
+.ayuda-container h1,
+h2,
+h3 {
+  text-align: left;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.barra-busqueda {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.barra-busqueda input[type="text"] {
+  width: 60%;
+  justify-content: center;
+  width: 50%;
+  height: 30px;
+  background-color: #fffcfc;
+  border-radius: 25px;
+  padding: 1%;
+  border-width: 0;
+}
+.barra-busqueda button {
+  font-size: 25px;
+  border-radius: 25px;
+  background-color: #a1b0bf;
+  padding: 1%;
+}
+
+.opciones-compra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.opciones-compra a {
+  gap: 10px;
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  background-color: #ffffff;
+  width: 60%;
+  position: relative;
+  padding: 1%;
+  border-radius: 25px;
+}
+.opciones-cuenta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.opciones-cuenta a {
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  background-color: #ffffff;
+  width: 60%;
+  position: relative;
+  padding: calc(13px + 1%) 1%;
+  border-radius: 25px;
+}
+
+.opciones-cuenta span {
+  margin-left: 10px;
+}
+/* ICONOS SECCION AYUDA */
+ion-icon[name="chevron-forward"] {
+  justify-self: flex-end;
+  position: absolute;
+  right: 0;
+}
+
+ion-icon[name="help"],
+[name="reload"],
+[name="chevron-forward"],
+[name="chevron-forward"],
+[name="bag-handle"] {
+  color: #cda410c1;
+}
+
+#footerServicios {
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #0a0a0a;
+}
