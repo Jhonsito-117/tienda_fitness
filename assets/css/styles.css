@@ -626,6 +626,7 @@ ion-icon[name="help"],
 }
 
 .lista-productos {
+  margin-bottom: 5%;
   display: grid;
   grid-template-columns: repeat(3, 25%);
   text-align: center;
@@ -645,6 +646,9 @@ ion-icon[name="help"],
 }
 
 .productos-img a {
+  display: inline-flex;
+
+  align-items: center;
   text-decoration: none;
   border-radius: 6px;
   background: transparent
@@ -653,10 +657,33 @@ ion-icon[name="help"],
   font-size: 20px;
   line-height: 25px;
   padding: 1%;
+  margin: auto;
 }
 ion-icon[name="card"] {
-  justify-self: flex-end;
-  position: absolute;
   right: 0;
-  color: #cda410c1;
+  color: #00ff1ef7;
+  font-size: 48px;
+}
+
+/* SECCION DEL PRODUCTO */
+
+.product-select {
+  display: flex;
+  flex-direction: column;
+}
+.text-producto {
+  font-size: 30px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+#footerproductos {
+  background-color: #000000;
+}
+
+.producto-select {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
