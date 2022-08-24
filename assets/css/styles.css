@@ -340,13 +340,31 @@ ion-icon {
 }
 
 .text-mejores {
-  width: 50%;
+  width: 100%;
+  /* width: 50%; */
   color: #ffffff;
   background-color: #111111;
   border-radius: 20px;
-  width: 70%;
+  /* width: 70%; */
   display: flex;
   flex-direction: column;
+}
+.text-mejores p {
+  color: #cda410c1;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.fecha-mejores {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.iconos-mejores {
+  display: flex;
+  justify-content: space-around;
+  margin: 0%;
 }
 
 /* SERVICIOS */
@@ -363,11 +381,13 @@ ion-icon {
   background-color: #cda410c1;
   border-radius: 15px;
   margin: 3%;
+  border-style: solid;
 }
 
 .contacto-container .opti {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .contacto-container p {
   font-size: 25px;
@@ -383,18 +403,47 @@ ion-icon {
 }
 .opti p {
   background-color: #716b6b;
-  border-radius: 8px;
+  /* background: linear-gradient(
+      180deg,
+      rgba(233, 0, 0, 0.3969) 43.75%,
+      rgba(247, 0, 0, 0.81) 100%
+    )
+    0% 0%; */
+  /* border-radius: 8px; */
   width: 15%;
-  height: 20%;
+  height: 30%;
   text-align: center;
-  border-style: solid;
+  /* border-style: solid; */
   border-color: #000000;
   font-size: 30px;
-  border-width: 3px;
+  border-width: 1px;
   margin-top: auto;
+  color: #ffffff;
+  margin: 0;
+  padding: 1%;
 }
 .opti a {
-  /* background-color: #e92b0088; */
+  background-color: #716b6bcf;
+  /* background: linear-gradient(
+      180deg,
+      rgba(233, 0, 0, 0.3969) 43.75%,
+      rgba(247, 0, 0, 0.81) 100%
+    )
+    0% 0%; */
+  /* border-radius: 15px; */
+  border-width: 1px;
+  width: fit-content;
+  height: 30%;
+  text-align: center;
+  font-size: 2vw;
+  padding: 1%;
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: auto;
+  margin-bottom: 13px;
+}
+
+#contactar {
   background: linear-gradient(
       180deg,
       rgba(233, 0, 0, 0.3969) 43.75%,
@@ -402,27 +451,29 @@ ion-icon {
     )
     0% 0%;
   border-radius: 15px;
-  /* border-color: #000000 solid; */
-  /* border-width: 15px;
-  border-color: #000000; */
-  width: auto;
-  height: fit-content;
+  border-width: 1px;
+
+  height: 30%;
   text-align: center;
-  font-size: 35px;
+
   padding: 1%;
   text-decoration: none;
-  color: #000000;
-  /* border-style: solid; */
+  color: #ffffff;
   margin-top: auto;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
 
 /* FOOTER */
 
 .footer-container {
-  color: #ffffff;
-
   display: flex;
+  color: #ffffff;
+  justify-content: space-around;
+}
+
+.social-icon {
+  display: flex;
+  gap: 10px;
 }
 
 /* LISTAS  PRODUCTOS*/
