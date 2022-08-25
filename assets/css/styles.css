@@ -617,6 +617,7 @@ h2 {
   justify-content: center;
   align-items: flex-end;
   gap: 20px;
+  align-items: center;
 }
 
 .barra-busqueda input[type="text"] {
@@ -630,7 +631,7 @@ h2 {
   border-width: 0;
 }
 .barra-busqueda button {
-  font-size: 25px;
+  font-size: 1vw;
   border-radius: 25px;
   background-color: #a1b0bf;
   padding: 1%;
