@@ -142,13 +142,13 @@ a {
   margin-top: 100px;
   margin-left: 50px;
   color: #cda410c1;
-  font-size: 40px;
+  font-size: 3vw;
   /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 }
 
 .intro-izq p {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 2.5vw;
   /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   margin-left: 50px;
 }
@@ -170,9 +170,10 @@ a {
   background: transparent
     linear-gradient(180deg, #e900007d 43.75%, #f60000 100%) 0% 0%;
   color: #ffffff;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.5vw;
+  line-height: 2vw;
   padding: 1%;
+  margin-bottom: 1%;
 }
 
 .intro-img {
@@ -182,7 +183,7 @@ a {
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .intro-izq {
     justify-content: center;
     margin-left: 2%;
@@ -228,7 +229,7 @@ a {
 }
 
 .encabezado-planes p {
-  font-size: 30px;
+  font-size: 2vw;
   color: #ffffff;
   margin-top: 10px;
   margin-left: 50px;
@@ -249,13 +250,12 @@ a {
   gap: 10px;
 }
 .encabezado-planes h1 {
-  font-size: 40px;
+  font-size: 3vw;
   color: #cda410c1;
 }
 
 .img-combo {
-  /* border-width: 5px;
-  border-color: #cda410c1; */
+  width: 70%;
 }
 
 .img-combo img {
@@ -278,19 +278,19 @@ a {
   margin: 1%;
   margin-bottom: 5%;
   margin-left: 5%;
-  font-size: 30px;
+  font-size: 2.5vw;
 }
 .text-combo p {
   margin: 1%;
   margin-bottom: 5%;
   margin-left: 5%;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 .text-combo a {
   margin-bottom: 5%;
   margin-left: 5%;
-  font-size: 20px;
+  font-size: 2vw;
   color: #cda410c1;
 }
 
@@ -358,14 +358,14 @@ ion-icon {
 
 .mejores-encabezado h1 {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 3vw;
   margin-top: 50px;
   margin-bottom: 1px;
 }
 .mejores-encabezado p {
   margin: 2px;
   color: #cda410c1;
-  font-size: 40px;
+  font-size: 3vw;
 }
 
 .mejores-productos {
@@ -408,6 +408,7 @@ ion-icon {
   color: #cda410c1;
   font-size: 20px;
   margin-left: 15px;
+  text-align: center;
 }
 
 .fecha-mejores {
@@ -894,7 +895,7 @@ ion-icon[name="card"] {
 }
 
 .form-register {
-  width: 50%;
+  width: 80%;
   background: #24303c;
   padding: 30px;
   margin: auto;
@@ -904,11 +905,14 @@ ion-icon[name="card"] {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #fff;
   box-shadow: -2px 1px 40px #ffffff;
+  height: fit-content;
+  text-align: center;
+  margin-bottom: 2%;
 }
 
 .form-register h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
+  font-size: 3vw;
+  margin-bottom: 1%;
 }
 
 .form-register a {
@@ -928,19 +932,20 @@ ion-icon[name="card"] {
 .controls {
   width: 100%;
   background: #24303c;
-  padding: 10px;
+  height: 7%;
   border-radius: 4px;
   margin-bottom: 16px;
   border: 1px solid #1f53c5;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 18px;
+  font-size: 2vw;
+  text-align: center;
 }
 
 .form-register p {
-  height: 40px;
+  /* height: 40px; */
   text-align: center;
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 2vw;
+  line-height: 4vw;
 }
 
 .form-register a:hover {
@@ -949,14 +954,14 @@ ion-icon[name="card"] {
 }
 
 .form-register .botons {
-  width: 100%;
   background: #1f53c5;
   border: none;
   padding: 12px;
   color: #fff;
-  margin: 16px 0;
-  font-size: 16px;
-  margin-top: 38px;
+  font-size: 3vw;
+  margin-top: 1%;
+  width: 25%;
+  height: 8%;
 }
 /* body {
   background-image: url(/assets/img/fondo.jpg);
