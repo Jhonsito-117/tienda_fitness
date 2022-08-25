@@ -182,7 +182,7 @@ a {
   width: 100%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .intro-izq {
     justify-content: center;
     margin-left: 2%;
@@ -837,8 +837,8 @@ ion-icon[name="card"] {
   background: transparent
     linear-gradient(180deg, #e900007d 43.75%, #f60000 100%) 0% 0%;
   color: #ffffff;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 2vw;
+  line-height: 3vw;
   padding: 1%;
 }
 
@@ -878,6 +878,7 @@ ion-icon[name="card"] {
 .relacion-img p {
   text-align: center;
   margin-bottom: 20%;
+  font-size: 2vw;
 }
 
 .seccion-productos {
