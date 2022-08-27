@@ -1,3 +1,7 @@
+:root {
+  --tamaño-fuente-titulo: 25px;
+  --tamaño-fuente-parrafo: 20px;
+}
 html,
 body {
   width: 100%;
@@ -741,3 +745,120 @@ hr {
 }
 
 /* SECCION DEL PRODUCTO FIN */
+
+/* VISTA ATENCION AL CLIENTE */
+
+.ayuda-container {
+  background-color: #000000;
+  padding-top: 1%;
+}
+
+.ayuda-container h1 {
+  margin-top: 0;
+}
+
+.ayuda-container h1,
+.ayuda-container h2,
+.ayuda-container h3 {
+  text-align: center;
+  color: #ffffff;
+  font-size: var(--tamaño-fuente-parrafo);
+}
+
+.barra-busqueda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.barra-busqueda input[type="text"] {
+  width: 60%;
+  justify-content: center;
+  width: 50%;
+  height: 30px;
+  background-color: #fffcfc;
+  border-radius: 15px;
+  padding: 1%;
+  border-width: 0;
+}
+
+.barra-busqueda button {
+  font-size: var(--tamaño-fuente-parrafo);
+  border-radius: 15px;
+  background-color: #a1b0bf;
+  line-height: 35px;
+}
+
+.opciones-compra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.opciones-compra a {
+  gap: 10px;
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  background-color: #ffffff;
+  width: 80%;
+  position: relative;
+  padding: 1%;
+  border-radius: 25px;
+}
+
+.opciones-cuenta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.opciones-cuenta a {
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  background-color: #ffffff;
+  width: 80%;
+  position: relative;
+  border-radius: 25px;
+  padding: 2%;
+}
+
+.opciones-cuenta span {
+  margin-left: 10px;
+}
+
+/* ICONOS SECCION AYUDA INICIO */
+
+ion-icon[name="chevron-forward"] {
+  justify-self: flex-end;
+  position: absolute;
+  right: 1%;
+}
+
+ion-icon[name="help"],
+[name="reload"],
+[name="chevron-forward"],
+[name="chevron-forward"],
+[name="bag-handle"] {
+  color: #cda410c1;
+}
+
+@media (min-width: 950px) {
+  .ayuda-container a {
+    width: 80%;
+  }
+  .barra-busqueda input[type="text"] {
+    width: 65%;
+  }
+}
+
+/* VISTA ATENCION AL CLIENTE FIN */
