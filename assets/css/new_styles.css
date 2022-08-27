@@ -57,7 +57,7 @@ a {
 
 .header-izq p {
   font-size: 25px;
-  line-height: 45px;
+  /* line-height: 45px; */
   text-align: center;
   font-weight: 800;
   -webkit-text-stroke: 0.3px #fff;
@@ -72,7 +72,7 @@ a {
 }
 
 .header-der a {
-  font-size: 20px;
+  font-size: var(--tamaño-fuente-parrafo);
 }
 
 .header-der-top {
@@ -120,6 +120,9 @@ a {
   }
   .header-der-top {
     display: block;
+  }
+  .header-izq p {
+    font-size: 35px;
   }
 }
 
@@ -808,7 +811,7 @@ hr {
   background-color: #ffffff;
   width: 80%;
   position: relative;
-  padding: 1%;
+  padding: 1% 0;
   border-radius: 25px;
 }
 
@@ -829,14 +832,23 @@ hr {
   width: 80%;
   position: relative;
   border-radius: 25px;
-  padding: 2%;
+  padding: calc(1% + 6px) 0;
 }
 
 .opciones-cuenta span {
   margin-left: 10px;
 }
 
+.ayuda-container a {
+  width: 80%;
+}
+
 /* ICONOS SECCION AYUDA INICIO */
+
+.ayuda-container ion-icon {
+  font-size: 32px;
+  margin-left: 2%;
+}
 
 ion-icon[name="chevron-forward"] {
   justify-self: flex-end;
@@ -853,12 +865,96 @@ ion-icon[name="help"],
 }
 
 @media (min-width: 950px) {
+  /* .ayuda-container a {
+      width: 50%;
+  } */
   .ayuda-container a {
-    width: 80%;
+    width: 50%;
   }
   .barra-busqueda input[type="text"] {
     width: 65%;
   }
+  /* .opciones-cuenta a {
+      width: 47%;
+  } */
 }
 
 /* VISTA ATENCION AL CLIENTE FIN */
+
+/* REGISTRO DE USUARIOS INICIO */
+
+.form-register {
+  width: 80%;
+  background: #cda410c1;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  height: fit-content;
+  text-align: center;
+  margin: 5% auto 2% auto;
+}
+
+.form-register h4 {
+  font-size: var(--tamaño-fuente-titulo);
+  margin: 0 auto 2% auto;
+}
+
+.form-register a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.form-register a:hover {
+  color: #24303c;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  height: 7%;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: var(--tamaño-fuente-parrafo);
+  text-align: center;
+}
+
+.form-register p {
+  text-align: center;
+  font-size: var(--tamaño-fuente-parrafo);
+  line-height: 35px;
+}
+
+.form-register a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 60%;
+  height: 8%;
+  border-radius: 6px;
+  background: transparent
+    linear-gradient(180deg, #e900007d 43.75%, #f60000 100%) 0% 0%;
+  color: #ffffff;
+  font-size: var(--tamaño-fuente-parrafo);
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+}
+@media (min-width: 950px) {
+  .controls {
+    height: 50px;
+    width: 50%;
+  }
+  .form-register {
+    width: 60%;
+  }
+  .form-register .botons {
+    width: 40%;
+  }
+}
+
+/* REGISTRO DE USUARIOS FIN */
