@@ -3,168 +3,160 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PRODUCTO</title>
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/new_styles.css" />
   </head>
   <body>
 <!-- COMIENZO DEL HEADER -->
 <header>
-    <div class="contenedor-header">
+  <div class="contenedor-header">
       <div class="fondo-header">
-        <img src="/assets/img/head1.png" alt="" />
+          <img src="/assets/img/head1.png" alt="" />
       </div>
       <div class="navegacion-header">
-        <div class="header-izq">
-          <p>STEEL BODY<br />NUTRITION</p>
-        </div>
-        <div class="header-der">
-          <div class="header-der-top">
-            <a href="/index.html">Inicio</a>
-            <a href="/vistas/servicios.html">Ayuda</a>
-            <a href="#">Ingresar</a>
-            <a href="/vistas/registro.html">Crear Cuenta</a>
+          <div class="header-izq">
+              <p>STEEL BODY<br />NUTRITION</p>
           </div>
-          <div class="header-der-bot">
-            <input
-              type="text"
-              name=""
-              id=""
-              placeholder="Buscar Productos, Marcas y mas..."
-            />
-            <button>Buscar</button>
+          <div class="header-der">
+              <div class="header-der-top">
+                  <div id="mobileLinks">
+                      <a href="/index.html">Inicio</a>
+                      <a href="/vistas/servicios.html">Ayuda</a>
+                      <a href="#">Ingresar</a>
+                      <a href="/vistas/registro.html">Crear Cuenta</a>
+                  </div>
+
+                  <div id="desktopLinks" class="hidden">
+                      <a href="/index.html">Inicio</a>
+                      <a href="/vistas/servicios.html">Ayuda</a>
+                      <a href="#">Ingresar</a>
+                      <a href="/vistas/registro.html">Crear Cuenta</a>
+                  </div>
+
+                  <a id="bars" href="javascript:void(0);" class="bars" onclick="myFunction()">
+                      <i class="fa fa-bars fa-2x"></i>
+                  </a>
+              </div>
+              <script>
+                  function myFunction() {
+                      var x = document.getElementById("mobileLinks");
+                      if (x.style.visibility === "visible") {
+                          x.style.visibility = "hidden";
+                          x.style.opacity = "0";
+                      } else {
+                          x.style.position = "absolute";
+                          x.style.visibility = "visible"
+                          x.style.opacity = "1";
+                      }
+                  }
+              </script>
+              <div class="header-der-bot hidden">
+                  <input type="text" name="" id="" placeholder="Buscar Productos, Marcas y mas..." />
+                  <button>Buscar</button>
+              </div>
           </div>
-        </div>
       </div>
-      <div class="servicios-header">
-        <a href="/vistas/lista.html">Protenias</a>
-        <a href="#">Rendimiento</a>
-        <a href="#">Perdida de Peso</a>
-        <a href="#">Vitaminas/Salud</a>
-        <a href="#">Comida</a>
-        <a href="#">Rope/Accesorios</a>
+      <div class="servicios-header hidden">
+          <a href="/vistas/lista.html">Protenias</a>
+          <a href="#">Rendimiento</a>
+          <a href="#">Perdida de Peso</a>
+          <a href="#">Vitaminas/Salud</a>
+          <a href="#">Comida</a>
+          <a href="#">Rope/Accesorios</a>
       </div>
-    </div>
-  </header>
-  <!-- FIN DEL HEADER -->
+  </div>
+</header>
+
+<!-- FIN DEL HEADER -->
 
   <div class="seccion-productos">
     <div class="producto-select">
-      <div class="text-producto">
-        <p>Nuevo /  15 Vendidos <br>
-          <strong> <span style="color: rgb(255, 166, 0);">Proteina On Gold Standard</span> <br>
-          100% 27serv Whey 2lbs Usa <br>
-          Import<br>
-          USD$ 50<br>
-          </strong>
-         <span style="font-size: 2vw;">Bs. 304,5<br>
-          Envío gratis a todo el país<br>
-          Mun. Baruta (este), Distrito Capital<br>
-          Ver costos de envío<br>
-          Sabor:Chocolate hazelnut<br>
-          ¡Última disponible!<br>
-          2 Meses de Garantia de Fabrica </span><br></p>
-          <button type="button">Comprar Ahora</button>
-  
-      </div>
-      <div class="img-product">
-          <img src="/assets/img/lista/lista4.png" alt="">
-          <div class="muestras">
-            <img src="/assets/img/im1.png" alt="">
-            <img src="/assets/img/im2.png" alt="">
-            <img src="/assets/img/im3.png" alt="">
-            <img src="/assets/img/im4.png" alt="">
-          </div>
-      </div>
-    </div>
-  
-      <div class="descripcion" style="">
-        <div class="text-descri">
-  
-        <p> <strong>Descripción:</strong>  <br><br>
-  
-          PROTEINA WHEY (PRECIO EL PUBLICADO)
-          
-          Sobre este artículo
-          El embalaje puede variar: nuevo aspecto, con la misma calidad de confianza
-          Polvo de proteína de suero de leche más galardonado en el planeta. (Proporcionado por: Euromonitor International Limited; Consumer Health 2019 Edition, Sports Protein Powder category, % de valor de venta al por menor, datos 2018)
-          Mezcla de suero de leche 100 % con estándar de oro: 0.94 onzas de proteína mezclada que consiste en aislamiento de proteína de suero de leche concentrado y péptidos de suero de leche para apoyar la masa muscular magra, no lo llaman el estándar de oro de calidad por nada
-          Más de 0.18 oz de BCAAS: ayuda a construir músculos magros y fuertes con BCAA natural
-          0.11-0.14 oz de carbohidratos, 0.04-0.11 oz de azúcar y 0.04-0.05 oz de grasa, sin gluten, sin sucralosa en sabor a chocolate doble rico
-          Instantáneo: mejora la mezcla para evitar grumos y grumos
-          Probada con sustancias prohibidas: las medidas de control de la más alta calidad para que te sientas cómodo y seguro consumiendo el producto.</p>
+        <div class="text-producto">
+            <p>
+                <strong> <span style="">Proteina On Gold Standard</span> <br>
+      100% 27serv Whey 2lbs Usa <br>
+      Import<br>
+      USD$ 50<br>
+      </strong>
+                <span style="">Bs. 304,5<br>
+      Envío gratis a todo el país<br>
+      Mun. Baruta (este), Distrito Capital<br>
+      Ver costos de envío<br>
+      Sabor:Chocolate hazelnut<br>
+      ¡Última disponible!<br>
+      2 Meses de Garantia de Fabrica </span><br></p>
+            <button type="button">Comprar Ahora</button>
+
         </div>
-  
+        <div class="img-product">
+            <img src="/assets/img/lista/lista4.png" alt="product">
+            <div class="muestras">
+                <img src="/assets/img/im1.png" alt="">
+                <img src="/assets/img/im2.png" alt="">
+                <img src="/assets/img/im3.png" alt="">
+                <img src="/assets/img/im4.png" alt="">
+            </div>
+        </div>
     </div>
-    <hr style= "     
-    height: 5px;
-    border-radius: 5px;
-    background-color: rgb(255, 166, 0);
-    border-width: 0px;
-    margin-bottom: 5%;">
+
+    <div class="descripcion" style="">
+        <div class="text-descri">
+
+            <p> <strong>Descripción:</strong> <br><br> PROTEINA WHEY (PRECIO EL PUBLICADO) Sobre este artículo El embalaje puede variar: nuevo aspecto, con la misma calidad de confianza Polvo de proteína de suero de leche más galardonado en el planeta.
+                (Proporcionado por: Euromonitor International Limited; Consumer Health 2019 Edition, Sports Protein Powder category, % de valor de venta al por menor, datos 2018) Mezcla de suero de leche 100 % con estándar de oro: 0.94 onzas de proteína
+                mezclada que consiste en aislamiento de proteína de suero de leche concentrado y péptidos de suero de leche para apoyar la masa muscular magra, no lo llaman el estándar de oro de calidad por nada Más de 0.18 oz de BCAAS: ayuda a construir
+                músculos magros y fuertes con BCAA natural 0.11-0.14 oz de carbohidratos, 0.04-0.11 oz de azúcar y 0.04-0.05 oz de grasa, sin gluten, sin sucralosa en sabor a chocolate doble rico Instantáneo: mejora la mezcla para evitar grumos y
+                grumos Probada con sustancias prohibidas: las medidas de control de la más alta calidad para que te sientas cómodo y seguro consumiendo el producto.</p>
+        </div>
+
+    </div>
+    <hr>
+    <strong><p style="margin-left:5%;">Relacionados:</p> </strong>
     <div class="relacionados">
-      <div class="relacion-img">
-        <img src="/assets/img/lista/lista1.png" alt="">
-        <p>USD$ 55 <br>
-          Envio Gratis <br>
-          Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
-      </div>
-      <div class="relacion-img">
-        <img src="/assets/img/lista/lista2.png" alt="">
-        <p>USD$ 55 <br>
-          Envio Gratis <br>
-          Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
-      </div>
-      <div class="relacion-img">
-        <img src="/assets/img/lista/lista3.png" alt="">
-        <p>USD$ 55 <br>
-          Envio Gratis <br>
-          Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
-      </div>
-      <div class="relacion-img">
-        <img src="/assets/img/lista/lista4.png" alt="">
-        <p>USD$ 55 <br>
-          Envio Gratis <br>
-          Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
-      </div>
-      <div class="relacion-img">
-        <img src="/assets/img/lista/lista5.png" alt="">
-        <p>USD$ 55 <br>
-          Envio Gratis <br>
-          Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
-      </div>
-      <div class="relacion-img">
-        <img src="/assets/img/lista/lista6.png" alt="">
-        <p>USD$ 55 <br>
-          Envio Gratis <br>
-          Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
-      </div>
-      <div class="relacion-img">
-        <img src="/assets/img/lista/lista7.png" alt="">
-        <p>USD$ 55 <br>
-          Envio Gratis <br>
-          Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
-      </div>
-      <div class="relacion-img">
-        <img src="/assets/img/lista/lista11.png" alt="">
-        <p>USD$ 55 <br>
-          Envio Gratis <br>
-          Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
-      </div>
-      <div class="relacion-img">
-        <img src="/assets/img/lista/lista12.png" alt="">
-        <p>USD$ 55 <br>
-          Envio Gratis <br>
-          Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
-      </div>
-      <div class="relacion-img">
-        <img src="/assets/img/lista/lista13.png" alt="">
-        <p>USD$ 55 <br>
-          Envio Gratis <br>
-          Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
-      </div>
+        <div class="relacion-img">
+            <img src="/assets/img/lista/lista1.png" alt="">
+            <p>USD$ 55 <br> Envio Gratis <br> Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
+        </div>
+        <div class="relacion-img">
+            <img src="/assets/img/lista/lista2.png" alt="">
+            <p>USD$ 55 <br> Envio Gratis <br> Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
+        </div>
+        <div class="relacion-img">
+            <img src="/assets/img/lista/lista3.png" alt="">
+            <p>USD$ 55 <br> Envio Gratis <br> Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
+        </div>
+        <div class="relacion-img">
+            <img src="/assets/img/lista/lista4.png" alt="">
+            <p>USD$ 55 <br> Envio Gratis <br> Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
+        </div>
+        <div class="relacion-img">
+            <img src="/assets/img/lista/lista5.png" alt="">
+            <p>USD$ 55 <br> Envio Gratis <br> Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
+        </div>
+        <div class="relacion-img">
+            <img src="/assets/img/lista/lista6.png" alt="">
+            <p>USD$ 55 <br> Envio Gratis <br> Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
+        </div>
+        <div class="relacion-img">
+            <img src="/assets/img/lista/lista7.png" alt="">
+            <p>USD$ 55 <br> Envio Gratis <br> Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
+        </div>
+        <div class="relacion-img">
+            <img src="/assets/img/lista/lista11.png" alt="">
+            <p>USD$ 55 <br> Envio Gratis <br> Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
+        </div>
+        <div class="relacion-img">
+            <img src="/assets/img/lista/lista12.png" alt="">
+            <p>USD$ 55 <br> Envio Gratis <br> Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
+        </div>
+        <div class="relacion-img">
+            <img src="/assets/img/lista/lista13.png" alt="">
+            <p>USD$ 55 <br> Envio Gratis <br> Proteína Hidrolyzed Whey Isolated Sascha Fitness</p>
+        </div>
     </div>
-  </div>
+</div>
 
 
 
